@@ -1,0 +1,40 @@
+devices:
+  - name: "android_real_device"
+    platform: "android"
+    udid: "4a32df09"
+    version: "10"
+    capabilities:
+      "appPackage": "com.mymoney.sms"
+      "appActivity": "com.mymoney.sms.ui.SplashActivity"
+      "deviceName": "MI 9"
+      "noReset": false
+      "fullReset": false
+      "autoGrantPermissions": true
+      "disableWindowAnimation": true
+
+  - name: "android_emulator_1"
+    platform: "android"
+    udid: "emulator-5554"
+    version: "11.0"
+    capabilities:
+      "appPackage": "com.example.app"
+      "appActivity": ".MainActivity"
+      "deviceName": "Android Emulator"
+
+  - name: "android_emulator_2"
+    platform: "android"
+    udid: "emulator-5556"
+    version: "12.0"
+    capabilities:
+      "appPackage": "com.example.app"
+      "appActivity": ".MainActivity"
+      "deviceName": "Android Emulator"
+
+  - name: "ios_simulator_1"
+    platform: "ios"
+    udid: "ABCD1234-5678-90EF-GHIJ-KLMN12345678"
+    version: "15.5"
+    capabilities:
+      "bundleId": "com.example.app"
+      "deviceName": "iPhone 13"
+      "platformVersion": "15.5"

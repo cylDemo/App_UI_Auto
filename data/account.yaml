@@ -1,0 +1,29 @@
+accounts:
+  android:
+    valid:
+      username: "test_user@example.com"
+      password: "Test@123456"
+      user_id: "10001"
+    invalid:
+      wrong_password:
+        username: "test_user@example.com"
+        password: "Wrong@123456"
+      wrong_username:
+        username: "nonexistent@example.com"
+        password: "Test@123456"
+      empty_username:
+        username: ""
+        password: "Test@123456"
+      empty_password:
+        username: "test_user@example.com"
+        password: ""
+
+  ios:
+    valid:
+      username: "ios_user@example.com"
+      password: "IOS@123456"
+      user_id: "20001"
+    invalid:
+      wrong_password:
+        username: "ios_user@example.com"
+        password: "Wrong@123456"
